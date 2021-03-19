@@ -5,8 +5,6 @@ from .views import CallRecordViewSet
 
 router = routers.DefaultRouter()
 router.register(r'CallRecord', CallRecordViewSet, basename="CallRecord")
-# router.register(r'EndCallRecord', EndCallRecordViewSet, basename="EndCallRecord")
-# router.register(r'Bill', BillViewSet, basename="Bill")
 
 urlpatterns = [
     path('', include(router.urls)),
