@@ -56,6 +56,9 @@ sqlparse = ">=0.2.2"
 argon2 = ["argon2-cffi (>=16.1.0)"]
 bcrypt = ["bcrypt"]
 
+[package.dependencies]
+Django = ">=1.10"
+
 [[package]]
 name = "djangorestframework"
 version = "3.12.2"
@@ -162,7 +165,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "a4846b20351aaebda9be7f3b8a0dedebba07163832461e7d36ae64e910d25634"
+content-hash = "c8ee6e78f124bb7ddafe41b0c71c6c4d04885cb89805c66068cf8727b7740a3b"
 
 [metadata.files]
 asgiref = [
@@ -184,6 +187,10 @@ colorama = [
 django = [
     {file = "Django-3.1.7-py3-none-any.whl", hash = "sha256:baf099db36ad31f970775d0be5587cc58a6256a6771a44eb795b554d45f211b8"},
     {file = "Django-3.1.7.tar.gz", hash = "sha256:32ce792ee9b6a0cbbec340123e229ac9f765dff8c2a4ae9247a14b2ba3a365a7"},
+]
+django-phone-field = [
+    {file = "django-phone-field-1.8.1.tar.gz", hash = "sha256:db63af60fc3a3c66b9faa7e72bb7972cd1518299f2e93d68dd95d8df6214f7ed"},
+    {file = "django_phone_field-1.8.1-py3-none-any.whl", hash = "sha256:407e74b65e8f7dd14d0a0aa89e277516d57ad6a09ce992cdd94e15b1624b9961"},
 ]
 djangorestframework = [
     {file = "djangorestframework-3.12.2-py3-none-any.whl", hash = "sha256:0209bafcb7b5010fdfec784034f059d512256424de2a0f084cb82b096d6dd6a7"},
