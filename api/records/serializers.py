@@ -3,9 +3,6 @@ from rest_framework import serializers
 
 
 class CallRecordSerializer(serializers.ModelSerializer):
-
-    # duration = serializers.SerializerMethodField() 
-
     class Meta:
         model = CallRecord
         fields = (
