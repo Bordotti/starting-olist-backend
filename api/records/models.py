@@ -15,10 +15,15 @@ class CallRecord(models.Model):
         return f"Start_call {self.start_call} | End_call {self.end_call} | Id {self.call_id} | Source: {self.source} | Destination: {self.destination}"
 
 
+# class BillCallRecord(CallRecord):
+
+
 # class Bill(models.Model):
-    ###filtro em vez de uma model com dropdown, a pessoa digita o telefone dela
-    # source = models.ForeignKey(CallRecord, related_name='source_bill', on_delete=models.CASCADE)
-    # initial_call = models.ForeignKey(CallRecord, related_name='initial_call_bill', on_delete=models.CASCADE)
+#     ###filtro em vez de uma model com dropdown, a pessoa digita o telefone dela
+#     source = models.ForeignKey(CallRecord, related_name='source_bill', on_delete=models.CASCADE)
+    # calls_in_period = models.
 
     # class Meta:
     #     unique_together = ('source', 'initial_call')
+
+
